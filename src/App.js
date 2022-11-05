@@ -134,7 +134,7 @@ function App() {
         const pokeNameTwo = firstLetter + restName;
 
         accumulator += `
-      <div id="${pokemon.id}" class='col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 block'>
+      <div id="${pokemon.id}" class='col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 block'>
       <div class="scene">
       <div class='cardpoke ${typesFC}'>
         <div class="card__face card__face--front">
